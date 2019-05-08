@@ -13,3 +13,28 @@
  *= require_tree .
  *= require_self
  */
+
+
+h2, span {
+  color: #00F900;
+
+}
+
+input {
+  width: 60%;
+}
+span {
+  width: 14%;
+  display:inline-block;
+  text-align: right;
+}
+
+div#written {
+  color: #00F900;
+  margin-bottom: 5px;
+  border: 1px #00F900 solid;
+  height: 200px;
+  padding: 8px;
+  overflow-y: scroll;
+  word-break: break-word;
+}

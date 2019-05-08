@@ -2,7 +2,18 @@
 /* Remember to validate your CSS at https://jigsaw.w3.org/css-validator/ */
 
 html {
-	background-color: #000;
+	background-color: black;
+}
+
+
+#kwrapper {
+   background-color: black;
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   margin: 0;
+   left: 0;
+
 }
 
 #kcontainer {
@@ -11,6 +22,8 @@ html {
 	flex-wrap: nowrap;
 	justify-content: flex-start;
 	align-items: center;
+        padding: 10px;
+
 }
 
 .keyboard_row {
